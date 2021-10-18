@@ -224,5 +224,48 @@ function TodoApp1() {
 			))}
 		</div>
 	);
+// 	return (
+// 		<div className="form">
+// 			<div className={Styles.form}>
+// 				<input
+// 					className={Styles.form__input}
+// 					type="text"
+// 					onChange={handleChange}
+// 					id="todo"
+// 					placeholder=""
+// 				/>
+// 				<label className={Styles.form__label} for="todo">
+// 					Enter Data Here
+// 				</label>
+// 				<button
+// 					className={`btn btn-outline-success ${Styles.form__button}`}
+// 					onClick={addTask}
+// 				>
+// 					Add
+// 				</button>
+// 			</div>
+
+// 			{tasklist.map((t, index) => (
+// 				<ul className={Styles.form__ul}>
+// 					<li className={Styles.form__li}>
+// 						<span className={Styles.form__span}>
+// 							Value : <b>{t}</b>{" "}
+// 						</span>
+
+// 						<input
+// 							className={Styles.form__output}
+// 							type="text"
+// 							placeholder="Updated value here"
+// 							onChange={updateValue}
+// 						/>
+// 						<div className={Styles.form_button1}>
+// 							<button className="btn btn-danger" onClick={() => deleteItem(index)}>Delete</button>
+// 							<button className="btn btn-success" onClick={() => updateValueinCouch(index)}>Update</button>
+// 						</div>
+// 					</li>
+// 				</ul>
+// 			))}
+// 		</div>
+// 	);
 }
 export default TodoApp1;
